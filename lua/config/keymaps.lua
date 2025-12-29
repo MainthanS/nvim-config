@@ -29,3 +29,5 @@ vim.keymap.set('n', 'gy', vim.lsp.buf.type_definition, { desc = 'Go to type defi
 -- Useful diagnostic keybinds
 -- In normal mode <C-W><C-D> or <C-W>d to open diagnostics on current line
 -- Use [d, [D, ]d, ]D to navigate through diagnostics
+
+-- For completion use <C-X><C-O> and <C-N> / <C-P> to scroll
