@@ -25,3 +25,7 @@ vim.keymap.set('n', 'gD', vim.lsp.buf.declaration, { desc = 'Go to declaration' 
 vim.keymap.set('n', 'gr', vim.lsp.buf.references, { desc = 'Show references' })
 vim.keymap.set('n', 'gI', vim.lsp.buf.implementation, { desc = 'Go to implementation' })
 vim.keymap.set('n', 'gy', vim.lsp.buf.type_definition, { desc = 'Go to type definition' })
+
+-- Useful diagnostic keybinds
+-- In normal mode <C-W><C-D> or <C-W>d to open diagnostics on current line
+-- Use [d, [D, ]d, ]D to navigate through diagnostics
