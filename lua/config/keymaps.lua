@@ -16,3 +16,10 @@ vim.keymap.set({ 'n' }, '<A-l>', '<C-w>l')
 -- Clear highlights on search when pressing <Esc> in normal mode
 --  See `:help hlsearch`
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
+
+-- LSP keymaps
+vim.keymap.set('n', 'gd', vim.lsp.buf.definition)
+vim.keymap.set('n', 'gD', vim.lsp.buf.declaration)
+vim.keymap.set('n', 'gr', vim.lsp.buf.references)
+vim.keymap.set('n', 'gI', vim.lsp.buf.implementation)
+vim.keymap.set('n', 'gy', vim.lsp.buf.type_definition)
