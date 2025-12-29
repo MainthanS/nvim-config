@@ -19,6 +19,7 @@ vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 
 -- LSP keymaps
 vim.keymap.set('n', 'K', vim.lsp.buf.hover, { desc = 'Show hover' })
+vim.keymap.set('i', '<C-S>', vim.lsp.buf.signature_help, { desc = 'Show signature help' })
 vim.keymap.set('n', 'gd', vim.lsp.buf.definition, { desc = 'Go to definition' })
 vim.keymap.set('n', 'gD', vim.lsp.buf.declaration, { desc = 'Go to declaration' })
 vim.keymap.set('n', 'gr', vim.lsp.buf.references, { desc = 'Show references' })
