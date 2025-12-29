@@ -5,8 +5,8 @@ return {
     'nvim-mini/mini.nvim',
     version = false,
     config = function()
-      require('mini.snippets').setup()
-      require('mini.completion').setup()
+      -- require('mini.snippets').setup()
+      -- require('mini.completion').setup()
       require('mini.git').setup()
     end
   },
