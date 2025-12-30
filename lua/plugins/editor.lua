@@ -26,4 +26,8 @@ return {
       vim.keymap.set('n', '<leader><leader>', builtin.buffers, { desc = 'Find existing buffers' })
     end
   },
+  {
+    "folke/which-key.nvim",
+    event = "VeryLazy",
+  }
 }
